@@ -1,11 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-
-using day1;
-
-Console.WriteLine("Input puzzle!");
+using day2;
 
 var input = Console.ReadLine();
 
-App.PrintSln1(input);
-App.PrintSln2(input);
+App.FindRepeatingNumber(input);
