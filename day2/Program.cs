@@ -4,4 +4,5 @@ using day2;
 
 var input = Console.ReadLine();
 
-App.FindRepeatingNumber(input);
+App.FindRepeatingNumbersPt1(input);
+App.FindRepeatingNumbersPt2(input);
