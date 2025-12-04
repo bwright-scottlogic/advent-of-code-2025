@@ -18,7 +18,6 @@ public class App
         var columns = rows.Length;
 
         var accessibleRolls = 0;
-        var prevAccessibleRolls = 0;
 
         for (var row = 0; row < columns; row++)
         for (var column = 0; column < rowLength; column++)
@@ -40,7 +39,6 @@ public class App
             if (surroundingRolls < 4)
             {
                 accessibleRolls++;
-                rows[row][column] = 'x';
             }
         }
 
